@@ -13,7 +13,27 @@ Consigna completa en [TUIA_PDI_TP1_2026_C2.pdf](TUIA_PDI_TP1_2026_C2.pdf).
 
 ## Instalación
 
-Requiere Python 3 y las dependencias de [requirements.txt](requirements.txt):
+Crea el entorno virtual dentro de la carpeta de tu proyecto:
+
+```bash
+python3 -m venv .venv
+```
+
+Activá el entorno virtual:
+
+* En Linux/macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+* En Windows (Git Bash):
+
+```bash
+source .venv/Scripts/activate
+```
+
+Instalá las dependencias de [requirements.txt](requirements.txt):
 
 ```bash
 pip install -r requirements.txt
